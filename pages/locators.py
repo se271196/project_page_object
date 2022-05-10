@@ -12,4 +12,5 @@ class MainPageLocators():
 class MainLinkLocators():
     MAIN_LINK="http://selenium1py.pythonanywhere.com/"
     LOGIN_LING=f"{MAIN_LINK}/accounts/login/"
+    CATALOGUE_LINK=f"{MAIN_LINK}/catalogue/"
     #http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear
