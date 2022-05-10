@@ -5,6 +5,8 @@ class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
+    BUTTON_ADD_TO_BASKET=By.CSS_SELECTOR,'button.btn-add-to-basket'
+
 
 #only for url
 class MainLinkLocators():

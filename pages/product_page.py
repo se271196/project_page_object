@@ -6,8 +6,9 @@ from .locators import MainPageLocators
 import math
 
 class ProductPage(BasePage):
-    def click(self):
-
+    def click_buy(self):
+        button=self.browser.find_element(*MainPageLocators.BUTTON_ADD_TO_BASKET)
+        button.click()
 
     def solve_quiz_and_get_code(self):
         alert = self.browser.switch_to.alert
